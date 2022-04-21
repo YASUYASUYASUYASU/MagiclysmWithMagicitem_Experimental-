@@ -1,13 +1,13 @@
 [
   {
+    "id": "mbracer_defense_lesser_xl",
     "copy-from": "mbracer_steel_single",
     "type": "TOOL_ARMOR",
-    "id": "mbracer_defense_lesser_xl",
     "name": { "str": "XL防御の篭手", "str_pl": "XL防御の篭手" },
     "price_postapoc": "950 USD",
     "description": "A light but extremely sturdy steel bracer with an ornate shield engraved on the top, silver accentuates the intricate design.  It protects your body with a light aura to reduce damage you take.",
     "material_thickness": 6,
-    "flags": [ "BELTED", "STURDY", "BLOCK_WHILE_WORN","OVERSIZE" ],
+    "flags": [ "BELTED", "STURDY", "BLOCK_WHILE_WORN", "OVERSIZE" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -24,15 +24,15 @@
     }
   },
   {
+    "id": "mbracer_lightning_lesser_xl",
     "copy-from": "mbracer_steel_single",
     "type": "TOOL_ARMOR",
-    "id": "mbracer_lightning_lesser_xl",
     "name": { "str": "XL電光の篭手", "str_pl": "XL電光の篭手" },
     "price_postapoc": "750 USD",
     "description": "A light but extremely sturdy steel bracer with an ornate bundle of lightning bolts engraved on the top, silver accentuates the intricate design.  It protects your body with a light aura to reduce electrical damage you take, as well as being able to release a Jolt spell 3 times a day.",
     "charges_per_use": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ],
-    "flags": [ "BELTED", "STURDY", "BLOCK_WHILE_WORN", "NO_UNLOAD", "NO_RELOAD","OVERSIZE" ],
+    "flags": [ "BELTED", "STURDY", "BLOCK_WHILE_WORN", "NO_UNLOAD", "NO_RELOAD", "OVERSIZE" ],
     "relic_data": {
       "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true },
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC", "add": -5 } ] } ]

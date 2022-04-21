@@ -1,6 +1,7 @@
 [
   {
     "id": "PSY_magi_shield_kite_thunder",
+    "repairs_like": "gloves_plate",
     "type": "ARMOR",
     "name": { "str": "雷のカイトシールド" },
     "category": "armor",
@@ -9,7 +10,7 @@
     "volume": "4 L",
     "price": "900 USD",
     "bashing": 4,
-    "material": [ "wood","iron","mana" ],
+    "material": [ "wood", "iron" ],
     "symbol": "[",
     "color": "light_gray",
     "sided": true,
@@ -35,6 +36,7 @@
   },
   {
     "id": "PSY_magi_shield_kite_fleeze",
+    "repairs_like": "gloves_plate",
     "type": "ARMOR",
     "name": { "str": "氷のカイトシールド" },
     "category": "armor",
@@ -43,7 +45,7 @@
     "volume": "4 L",
     "price": "900 USD",
     "bashing": 4,
-    "material": [ "wood","iron","mana" ],
+    "material": [ "wood", "iron" ],
     "symbol": "[",
     "color": "light_gray",
     "sided": true,
