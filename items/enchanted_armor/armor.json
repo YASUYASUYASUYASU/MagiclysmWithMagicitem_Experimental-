@@ -336,7 +336,7 @@
     "id": "PSY_magi_head_bouei",
     "repairs_like": "helmet_plate",
     "type": "TOOL_ARMOR",
-    "category": "clothing",
+    "category": "armor",
     "name": { "str": "防衛者の兜" },
     "description": "防衛者と呼ばれる集団が装備する兜です。装備することで多少の保護が得られます",
     "weight": "2175 g",
@@ -353,6 +353,47 @@
       { "covers": [ "mouth" ], "coverage": 100, "encumbrance": 20, "rigid_layer_only": true },
       { "covers": [ "eyes" ], "coverage": 100, "encumbrance": 20, "rigid_layer_only": true }
     ],
+    "use_action": { "type": "transform", "msg": "兜のバイザーを開けました。", "target": "PSY_magi_head_bouei_raised", "menu_text": "バイザーを開ける" },
+    "warmth": 10,
+    "material_thickness": 6,
+    "environmental_protection": 3,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT", "PADDED" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_head_bouei_raised",
+    "repairs_like": "helmet_plate",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "防衛者の兜(バイザー開放)" },
+    "description": "防衛者と呼ばれる集団が装備する兜です。装備することで多少の保護が得られます。バイザーは開いた状態です。",
+    "weight": "2175 g",
+    "volume": "2750 ml",
+    "price": 40000,
+    "price_postapoc": 5000,
+    "bashing": 10,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "looks_like": "helmet_barbute",
+    "color": "light_gray",
+    "armor": [
+      { "covers": [ "head" ], "coverage": 100, "encumbrance": 30 }
+    ],
+    "use_action": { "type": "transform", "msg": "兜のバイザーを閉じました。", "target": "PSY_magi_head_bouei", "menu_text": "バイザーを閉じる" },
     "warmth": 10,
     "material_thickness": 6,
     "environmental_protection": 3,
@@ -377,6 +418,7 @@
     "id": "PSY_magi_tshirt_bouei",
     "repairs_like": "armor_lc_plate",
     "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "防衛者の鎧" },
     "description": "防衛者と呼ばれる集団が装備する鎧です。装備することで多少の保護が得られます",
     "weight": "10 kg",
@@ -413,6 +455,7 @@
     "id": "PSY_magi_bracelet_bouei",
     "repairs_like": "gloves_plate",
     "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "防衛者の籠手" },
     "description": "防衛者と呼ばれる集団が装備する籠手です。装備することで多少の保護が得られます",
     "weight": "880 g",
@@ -449,6 +492,7 @@
     "id": "PSY_magi_boots_bouei",
     "repairs_like": "boots_plate",
     "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "防衛者のグリーブ", "str_pl": "防衛者のグリーブ" },
     "description": "防衛者と呼ばれる集団が装備するグリーブです。装備することで多少の保護が得られます",
     "weight": "1890 g",
@@ -484,8 +528,8 @@
   {
     "id": "PSY_magi_head_val",
     "repairs_like": "helmet_plate",
-    "type": "TOOL_ARMOR",
-    "category": "clothing",
+    "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "ヴァルキリーの兜" },
     "description": "ヴァルキリーと呼ばれる集団が装備する兜です。装備することで多少の保護が得られます",
     "weight": "2175 g",
@@ -524,6 +568,7 @@
     "id": "PSY_magi_tshirt_val",
     "repairs_like": "armor_lc_plate",
     "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "ヴァルキリーの鎧" },
     "description": "ヴァルキリーと呼ばれる集団が装備する鎧です。装備することで多少の保護が得られます",
     "weight": "10 kg",
@@ -560,6 +605,7 @@
     "id": "PSY_magi_bracelet_val",
     "repairs_like": "gloves_plate",
     "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "ヴァルキリーの籠手" },
     "description": "ヴァルキリーと呼ばれる集団が装備する籠手です。装備することで多少の保護が得られます",
     "weight": "880 g",
@@ -596,6 +642,7 @@
     "id": "PSY_magi_boots_val",
     "repairs_like": "boots_plate",
     "type": "ARMOR",
+    "category": "armor",
     "name": { "str": "ヴァルキリーの靴", "str_pl": "ヴァルキリーの靴" },
     "description": "ヴァルキリーと呼ばれる集団が装備する靴です。装備することで多少の保護が得られます",
     "weight": "1890 g",
