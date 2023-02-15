@@ -14,7 +14,10 @@
         { "item": "PSY_magi_mnecklace_speed_3", "prob": 5 },
         { "item": "PSY_magi_mnecklace_protection_2", "prob": 5 },
         { "item": "PSY_magi_mnecklace_wizardry_minor", "prob": 2 },
-        { "item": "PSY_magi_mnecklace_stamina_minor", "prob": 2 }
+        { "item": "PSY_magi_mnecklace_stamina_minor", "prob": 2 },
+        { "item": "PSY_magi_bracelet_reaction_buffer_minor", "prob": 2 },
+        { "item": "PSY_magi_bracelet_attack_cost_minor", "prob": 2 }
+
       ]
     }
   },
@@ -34,7 +37,9 @@
         { "item": "PSY_magi_mnecklace_speed_5", "prob": 5 },
         { "item": "PSY_magi_mnecklace_protection_4", "prob": 5 },
         { "item": "PSY_magi_mnecklace_wizardry_lesser", "prob": 2 },
-        { "item": "PSY_magi_mnecklace_stamina_lesser", "prob": 2 }
+        { "item": "PSY_magi_mnecklace_stamina_lesser", "prob": 2 },
+        { "item": "PSY_magi_bracelet_reaction_buffer_lesser", "prob": 2 },
+        { "item": "PSY_magi_bracelet_attack_cost_lesser", "prob": 2 }
       ]
     }
   },
@@ -54,7 +59,9 @@
         { "item": "PSY_magi_mnecklace_speed_7", "prob": 5 },
         { "item": "PSY_magi_mnecklace_protection_6", "prob": 5 },
         { "item": "PSY_magi_mnecklace_wizardry_moderate", "prob": 2 },
-        { "item": "PSY_magi_mnecklace_stamina_moderate", "prob": 2 }
+        { "item": "PSY_magi_mnecklace_stamina_moderate", "prob": 2 },
+        { "item": "PSY_magi_bracelet_reaction_buffer_moderate", "prob": 2 },
+        { "item": "PSY_magi_bracelet_attack_cost_moderate", "prob": 2 }
       ]
     }
   },
@@ -75,33 +82,38 @@
         { "item": "PSY_magi_mnecklace_wizardry_greater", "prob": 2 },
         { "item": "PSY_magi_mnecklace_stamina_greater", "prob": 2 },
         { "item": "PSY_magi_mring_eye", "prob": 2 },
-        { "item": "PSY_magi_mnecklace_eye", "prob": 2 }
+        { "item": "PSY_magi_mnecklace_eye", "prob": 2 },
+        { "item": "PSY_magi_bracelet_reaction_buffer_greater", "prob": 2 },
+        { "item": "PSY_magi_bracelet_attack_cost_greater", "prob": 2 }
+      ]
+    }
+  },  {
+    "type": "item_group",
+    "id": "guns_rifle_common",
+    "copy-from": "guns_rifle_common",
+    "subtype": "distribution",
+    "extend": {
+      "entries": [
+        { "item": "PSY_magi_Kar98k_teneblae", "prob": 3, "charges-min": 0, "charges-max": 5 },
+        { "item": "PSY_magi_type38_ignis"   , "prob": 3, "charges-min": 0, "charges-max": 5 },
+        { "item": "PSY_magi_M1903_electrica", "prob": 3, "charges-min": 0, "charges-max": 5 },
+        { "item": "PSY_magi_enfield_acidus" , "prob": 3, "charges-min": 0, "charges-max": 5 },
+        { "item": "PSY_magi_carcano_clear"  , "prob": 3, "charges-min": 0, "charges-max": 5 }
       ]
     }
   },
   {
     "type": "item_group",
-    "id": "guns_rifle_common",
-    "copy-from": "guns_rifle_common",
-    "extend": {
-      "items": [
-        { "item": "PSY_magi_Kar98k_teneblae", "prob": 3, "charges-min": 0, "charges-max": 5 },
-        { "item": "PSY_magi_type38_ignis"   , "prob": 3, "charges-min": 0, "charges-max": 5 },
-        { "item": "PSY_magi_M1903_electrica", "prob": 3, "charges-min": 0, "charges-max": 5 },
-        { "item": "PSY_magi_enfield_acidus" , "prob": 3, "charges-min": 0, "charges-max": 10 }
-      ]
-	}
-  },
-  {
-    "type": "item_group",
     "id": "guns_rifle_common_display",
     "copy-from": "guns_rifle_common_display",
+    "subtype": "distribution",
     "extend": {
-      "items": [
+      "entries": [
         { "item": "PSY_magi_Kar98k_teneblae", "prob": 3, "charges-min": 0, "charges-max": 5 },
         { "item": "PSY_magi_type38_ignis"   , "prob": 3, "charges-min": 0, "charges-max": 5 },
         { "item": "PSY_magi_M1903_electrica", "prob": 3, "charges-min": 0, "charges-max": 5 },
-        { "item": "PSY_magi_enfield_acidus" , "prob": 3, "charges-min": 0, "charges-max": 10 }
+        { "item": "PSY_magi_enfield_acidus" , "prob": 3, "charges-min": 0, "charges-max": 5 },
+        { "item": "PSY_magi_carcano_clear"  , "prob": 3, "charges-min": 0, "charges-max": 5 }
       ]
     }
   },
@@ -109,8 +121,9 @@
     "type": "item_group",
     "id": "enchanted_misc",
     "copy-from": "enchanted_misc",
+    "subtype": "distribution",
     "extend": {
-      "items": [
+      "entries": [
         { "item": "PSY_magi_scroll_spell_fastlearner", "prob": 5 },
         { "item": "PSY_magi_scroll_spell_pretty", "prob": 5 },
         { "item": "PSY_magi_scroll_spell_smelly", "prob": 5 },
@@ -143,14 +156,15 @@
     "type": "item_group",
     "id": "enchanted_combat_items",
     "copy-from": "enchanted_combat_items",
+    "subtype": "distribution",
     "extend": {
-      "items": [
+      "entries": [
         { "item": "PSY_magi_magic_Gauntlet_MA_1", "prob": 5 },
-        { "item": "PSY_magi_magic_Gauntlet_MA_2", "prob": 5 },
+        { "item": "PSY_magi_magic_Gauntlet_MA_2", "prob": 1 },
         { "item": "PSY_magi_magic_Gauntlet_MA_3", "prob": 5 },
         { "item": "PSY_magi_magic_Gauntlet_MA_4", "prob": 5 },
         { "item": "PSY_magi_magic_Gauntlet_MA_5", "prob": 5 },
-        { "item": "PSY_magi_magic_Gauntlet_MA_6", "prob": 5 },
+        { "item": "PSY_magi_magic_Gauntlet_MA_6", "prob": 1 },
         { "item": "PSY_magi_magic_Gauntlet_MA_7", "prob": 5 },
         { "item": "PSY_magi_magic_Gauntlet_MA_8", "prob": 5 },
         { "item": "PSY_magi_magic_Gauntlet_MA_9", "prob": 5 },
@@ -166,7 +180,10 @@
         { "item": "PSY_magi_mnecklace_safe_2", "prob": 5 },
         { "item": "PSY_magi_mnecklace_safe_3", "prob": 5 },
         { "item": "PSY_magi_mnecklace_safe_4", "prob": 5 },
-        { "item": "PSY_magi_mnecklace_safe_5", "prob": 5 }
+        { "item": "PSY_magi_mnecklace_safe_5", "prob": 5 },
+        { "item": "PSY_magi_mnecklace_electric_safe_1", "prob": 1 },
+        { "item": "PSY_magi_mnecklace_acid_safe_1", "prob": 1 },
+        { "item": "PSY_magi_mnecklace_fire_safe_1", "prob": 1 }
       ]
     }
   },
@@ -174,8 +191,9 @@
     "type": "item_group",
     "id": "demon_spider_lair_treasure",
     "copy-from": "demon_spider_lair_treasure",
+    "subtype": "distribution",
     "extend": {
-      "items": [
+      "entries": [
         { "item": "PSY_magi_hayate_bandana_head" , "prob": 20 },
         { "item": "PSY_magi_hayate_tshirt"       , "prob": 20 },
         { "item": "PSY_magi_hayate_bracelet"     , "prob": 20 },
@@ -195,7 +213,8 @@
         { "item": "PSY_magi_bracelet_val"        , "prob": 20 },
         { "item": "PSY_magi_boots_val"           , "prob": 20 },
         { "item": "PSY_magi_shield_kite_thunder" , "prob": 20 },
-        { "item": "PSY_magi_shield_kite_fleeze"  , "prob": 20 }
+        { "item": "PSY_magi_shield_kite_fleeze"  , "prob": 20 },
+        { "item": "PSY_magi_shield_kite_fire"    , "prob": 20 }
       ]
     }
   },
@@ -203,8 +222,9 @@
     "type": "item_group",
     "id": "lair_black_dragon_treasure",
     "copy-from": "lair_black_dragon_treasure",
+    "subtype": "distribution",
     "extend": {
-      "items": [
+      "entries": [
         { "item": "PSY_magi_hayate_bandana_head" , "prob": 20 },
         { "item": "PSY_magi_hayate_tshirt"       , "prob": 20 },
         { "item": "PSY_magi_hayate_bracelet"     , "prob": 20 },
@@ -224,7 +244,8 @@
         { "item": "PSY_magi_bracelet_val"        , "prob": 20 },
         { "item": "PSY_magi_boots_val"           , "prob": 20 },
         { "item": "PSY_magi_shield_kite_thunder" , "prob": 20 },
-        { "item": "PSY_magi_shield_kite_fleeze"  , "prob": 20 }
+        { "item": "PSY_magi_shield_kite_fleeze"  , "prob": 20 },
+        { "item": "PSY_magi_shield_kite_fire"    , "prob": 20 }
       ]
     }
   },
@@ -232,8 +253,9 @@
     "type": "item_group",
     "id": "magic_shop_clothes",
     "copy-from": "magic_shop_clothes",
+    "subtype": "distribution",
     "extend": {
-      "items": [
+      "entries": [
         { "item": "PSY_magi_hayate_bandana_head" , "prob": 5 },
         { "item": "PSY_magi_hayate_tshirt"       , "prob": 5 },
         { "item": "PSY_magi_hayate_bracelet"     , "prob": 5 },
@@ -253,20 +275,36 @@
         { "item": "PSY_magi_bracelet_val"        , "prob": 5 },
         { "item": "PSY_magi_boots_val"           , "prob": 5 },
         { "item": "PSY_magi_shield_kite_thunder" , "prob": 5 },
-        { "item": "PSY_magi_shield_kite_fleeze"  , "prob": 5 }
+        { "item": "PSY_magi_shield_kite_fleeze"  , "prob": 5 },
+        { "item": "PSY_magi_shield_kite_fire"    , "prob": 5 }
       ]
     }
   },
   {
     "id": "enchanted_bracers_lesser",
     "type": "item_group",
-    "//": "lesser enchanted bracers",
     "copy-from": "enchanted_bracers_lesser",
     "subtype": "collection",
     "extend": {
       "entries": [
-        { "item": "mbracer_defense_lesser_xl", "prob": 10 },
-        { "item": "mbracer_lightning_lesser_xl", "prob": 10 }
+       { "item": "PSY_magi_mbracer_defense_lesser_xl", "prob": 10 },
+       { "item": "PSY_magi_mbracer_lightning_lesser_xl", "prob": 10 },
+       { "item": "PSY_magi_mbracer_defense_lesser_xs", "prob": 10 },
+       { "item": "PSY_magi_mbracer_lightning_lesser_xs", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "id": "enchanted_bracers_greater",
+    "type": "item_group",
+    "copy-from": "enchanted_bracers_greater",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+       { "item": "PSY_magi_mbracer_defense_greater_xl", "prob": 10 },
+       { "item": "PSY_magi_mbracer_lightning_greater_xl", "prob": 10 },
+       { "item": "PSY_magi_mbracer_defense_greater_xs", "prob": 10 },
+       { "item": "PSY_magi_mbracer_lightning_greater_xs", "prob": 10 } 
       ]
     }
   },
@@ -274,7 +312,6 @@
     "id": "enchanted_tokens_tool",
     "type": "item_group",
     "//": "all the tool tokens",
-    "copy-from": "enchanted_tokens_tool",
     "subtype": "collection",
     "extend": {
       "entries": [

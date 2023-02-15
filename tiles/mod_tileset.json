@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles" ],
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "MSX++ZaragaTiles", "MshockXottoplus" ],
     "tiles-new": [
       {
         "file": "tiles/Magiclysm_With_Magicitem_large.png",
@@ -49,7 +49,9 @@
           { "id": "PSY_magi_shield_kite_fleeze" ,"fg": 21, "rotates": false },
           { "id": "overlay_worn_PSY_magi_shield_kite_fleeze"    ,"fg": 22, "rotates": false },
           { "id": "PSY_magi_shield_kite_thunder","fg": 25, "rotates": false },
-          { "id": "overlay_worn_PSY_magi_shield_kite_thunder"   ,"fg": 26, "rotates": false }
+          { "id": "overlay_worn_PSY_magi_shield_kite_thunder"   ,"fg": 26, "rotates": false },
+          { "id": "PSY_magi_shield_kite_fire","fg": 29, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_shield_kite_fire"   ,"fg": 30, "rotates": false }
         ]
       }
     ]
