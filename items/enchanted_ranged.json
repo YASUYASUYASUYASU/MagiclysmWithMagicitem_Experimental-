@@ -1,7 +1,7 @@
 [
   {
     "id": "PSY_magi_Kar98k_teneblae",
-    "copy-from": "mosin91_30",
+    "copy-from": "boreal_mosin",
     "type": "GUN",
     "name": { "str_sp": "ライフル(308口径/ﾓｰｾﾞﾙ Kar98k ﾃﾈﾌﾞﾗｴ)[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したkar98kの最新モデルです。弾丸に若干の毒のダメージ特性を与える魔法が銃身に込められています。",
@@ -9,7 +9,7 @@
   },
   {
     "id": "PSY_magi_type38_ignis",
-    "copy-from": "mosin91_30",
+    "copy-from": "boreal_mosin",
     "type": "GUN",
     "name": { "str_sp": "ライフル(308口径/三八式歩兵銃 ｲｸﾞﾆｽ)[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作した三八式歩兵銃の最新モデルです。弾丸に若干の炎のダメージ特性を与える魔法が銃身に込められています。",
@@ -17,7 +17,7 @@
   },
   {
     "id": "PSY_magi_M1903_electrica",
-    "copy-from": "mosin91_30",
+    "copy-from": "boreal_mosin",
     "type": "GUN",
     "name": { "str_sp": "ライフル(308口径/ｽﾌﾟﾘﾝｸﾞﾌｨｰﾙﾄﾞ M1903 ｴﾚｸﾄﾘｶ)[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したM1903の最新モデルです。弾丸に若干の雷のダメージ特性を与える魔法が銃身に込められています。",
@@ -25,7 +25,7 @@
   },
   {
     "id": "PSY_magi_enfield_acidus",
-    "copy-from": "mosin91_30",
+    "copy-from": "boreal_mosin",
     "type": "GUN",
     "name": { "str_sp": "ライフル(308口径/ｴﾝﾌｨｰﾙﾄﾞ Mk III ｱｷﾄﾞｩｽ)[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したｴﾝﾌｨｰﾙﾄﾞの最新モデルです。弾丸に若干の酸のダメージ特性を与える魔法が銃身に込められています。",
@@ -33,7 +33,7 @@
   },
   {
     "id": "PSY_magi_carcano_clear",
-    "copy-from": "mosin91_30",
+    "copy-from": "boreal_mosin",
     "type": "GUN",
     "name": { "str_sp": "ライフル(308口径/ｶﾙｶﾉM1938 ｸﾗﾙｽ[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したｶﾙｶﾉの最新モデルです。弾丸に若干の純粋なダメージ特性を与える魔法が銃身に込められています。",

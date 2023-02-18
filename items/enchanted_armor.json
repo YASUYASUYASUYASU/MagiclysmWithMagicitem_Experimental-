@@ -9,7 +9,7 @@
     "volume": "4 L",
     "price": "900 USD",
     "bashing": 4,
-    "material": [ "wood","iron","mana" ],
+    "material": [ "wood","iron" ],
     "symbol": "[",
     "color": "light_gray",
     "sided": true,

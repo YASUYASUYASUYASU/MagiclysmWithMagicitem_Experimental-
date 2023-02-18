@@ -11,11 +11,12 @@
     "price_postapoc": "1000 USD",
     "to_hit":  2,
     "bashing": 15,
-    "material": [ "iron", "leather","mana" ],
+    "material": [ "iron", "leather" ],
     "symbol": "[",
     "looks_like": "cestus",
     "color": "light_gray",
     "armor": [ { "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ] } ],
+    "techniques": [ "WBLOCK_1"],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ]
   },
   {
@@ -25,13 +26,6 @@
     "name": { "str": "魔術師のガントレット[MWMI]", "str_pl": "魔術師のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_PURE", "add": 15 } ] } ]
@@ -44,13 +38,6 @@
     "name": { "str": "精霊のガントレット[MWMI]", "str_pl": "精霊のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true },
@@ -65,13 +52,6 @@
     "name": { "str": "業火のガントレット[MWMI]", "str_pl": "業火のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_HEAT", "add": 15 } ] } ]
@@ -84,13 +64,6 @@
     "name": { "str": "極寒のガントレット[MWMI]", "str_pl": "極寒のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_COLD", "add": 15 } ] } ]
@@ -103,13 +76,6 @@
     "name": { "str": "雷のガントレット[MWMI]", "str_pl": "雷のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_ELEC", "add": 15 } ] } ]
@@ -122,13 +88,6 @@
     "name": { "str": "機工術師のガントレット[MWMI]", "str_pl": "機工術師のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true }
@@ -142,12 +101,6 @@
     "name": { "str": "大地のガントレット[MWMI]", "str_pl": "大地のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SWEEP"],
     "flags": [ "UNBREAKABLE_MELEE","UNARMED_WEAPON", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
@@ -162,13 +115,6 @@
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
     "bashing": 20,
-    "techniques": [ "WBLOCK_1" ],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
        "passive_effects": [
@@ -188,13 +134,6 @@
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
     "bashing": 20,
-    "techniques": [ "WBLOCK_1" ],
-    "armor": [ 
-      { 
-        "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ],
-        "material": [ "iron", "leather","mana" ]
-      } 
-     ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
        "passive_effects": [
